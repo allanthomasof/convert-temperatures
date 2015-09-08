@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Body Mass Index</title>
+
+<link rel="stylesheet" href="asset/css/style.css" />
+
+</head>
+<body>
+
+<section class="container">
+	<form class="form">
+		<fieldset>
+			<legend>Convert Temperatures</legend>
+			<label>
+				Value
+				<input id="number" type="text" required="required" />
+			</label>
+			Convert to<br></br>
+			Celsius
+  			<input type="radio" name="opc" value="c" checked>
+  			Fahren
+  			<input type="radio" name="opc" value="f">
+			<button>Calculate</button>
+		</fieldset>
+	</form>
+	
+	<div class="content-result">
+		<span class="label">Conversion Result</span>
+		<span class="result">0.00</span>
+	</div>
+</section>
+
+<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="asset/js/TEMPService.js"></script>
+<script src="asset/js/TEMPController.js"></script>
+
+</body>
+</html>
